@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Min hemsida</title>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+
+    <!-- Hela sidan -->
+    <div class="max-w-3xl mx-auto bg-white">
+
+        <!-- HEADER -->
+        <header class="bg-gray-300 px-6 py-4 flex justify-between items-center">
+
+            <h2 class="font-bold">Logo</h2>
+
+            <nav class="space-x-5 text-xs">
+                <a href="#">Link one</a>
+                <a href="#">Link two</a>
+                <a href="#">Link three</a>
+                <a href="#">Link four</a>
+            </nav>
+
+            <button class="bg-gray-700 text-white px-4 py-2 rounded">
+                Button
+            </button>
+
+        </header>
+
+
+        <!-- HERO -->
+        <section class="p-8 grid grid-cols-2 gap-8 items-center">
+
+            <!-- Text -->
+            <div>
+
+                <h1 class="text-3xl font-bold mb-5">
+                    Medium length hero headline
+                </h1>
+
+                <p class="text-xs mb-5">
+                    Lorem ipsum dolor sit amet et delectus
+                    accomodare his consul copiosae legendos at vix
+                    ad putent delectus usu. Vidit dissentiet eos
+                    cu eum an brute copiosae hendrerit.
+                </p>
+
+                <button class="bg-gray-700 text-white px-4 py-2 text-xs rounded">
+                    Button
+                </button>
+
+                <button class="border border-gray-400 px-4 py-2 text-xs rounded ml-2">
+                    Button
+                </button>
+
+            </div>
+
+
+            <!-- Bild -->
+            <img 
+                src="https://picsum.photos/500/300"
+                alt="Bild"
+                class="w-full h-40 object-cover"
+            >
+
+        </section>
+
+
+        <!-- FEATURES -->
+        <section class="px-8 py-6 grid grid-cols-2 gap-10">
+
+            <!-- Vänster sida -->
+            <div>
+
+                <p class="text-xs mb-5">
+                    Tagline
+                </p>
+
+                <h2 class="text-xl font-bold mb-5">
+                    Medium length features headline
+                </h2>
+
+                <p class="text-xs">
+                    Lorem ipsum dolor sit amet et delectus
+                    accomodare his consul copiosae legendos at vix
+                    ad putent delectus usu. Vidit dissentiet eos
+                    cu eum an brute copiosae hendrerit.
+                    Eos erant dolorum an. Per facer affert ut.
+                </p>
+
+            </div>
+
+
+            <!-- Höger sida -->
+            <div>
+
+                <!-- Feature 1 -->
+                <div class="flex gap-3 mb-7">
+
+                    <div class="bg-gray-200 p-3 rounded">
+                        🌐
+                    </div>
+
+                    <div>
+                        <h3 class="font-bold text-sm">
+                            Medium length headline
+                        </h3>
+
+                        <p class="text-xs">
+                            Lorem ipsum dolor sit amet et delectus
+                            accomodare his consul copiosae.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <!-- Feature 2 -->
+                <div class="flex gap-3 mb-7">
+
+                    <div class="bg-gray-200 p-3 rounded">
+                        ↻
+                    </div>
+
+                    <div>
+                        <h3 class="font-bold text-sm">
+                            Medium length headline
+                        </h3>
+
+                        <p class="text-xs">
+                            Lorem ipsum dolor sit amet et delectus
+                            accomodare his consul copiosae.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <!-- Feature 3 -->
+                <div class="flex gap-3">
+
+                    <div class="bg-gray-200 p-3 rounded">
+                        ☆
+                    </div>
+
+                    <div>
+                        <h3 class="font-bold text-sm">
+                            Medium length headline
+                        </h3>
+
+                        <p class="text-xs">
+                            Lorem ipsum dolor sit amet et delectus
+                            accomodare his consul copiosae.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- GALLERY -->
+        <section class="px-8 py-8">
+
+            <h2 class="text-2xl font-bold text-center mb-7">
+                Image Gallery
+            </h2>
+
+
+            <!-- Bilder -->
+            <div class="grid grid-cols-3 gap-2">
+
+                <!-- Stor bild -->
+                <img
+                    src="https://picsum.photos/600/500"
+                    alt="Bild 1"
+                    class="w-full h-full object-cover row-span-2"
+                >
+
+                <!-- Bild 2 -->
+                <img
+                    src="https://picsum.photos/300/200"
+                    alt="Bild 2"
+                    class="w-full h-28 object-cover"
+                >
+
+                <!-- Bild 3 -->
+                <img
+                    src="https://picsum.photos/301/200"
+                    alt="Bild 3"
+                    class="w-full h-28 object-cover"
+                >
+
+                <!-- Bild 4 -->
+                <img
+                    src="https://picsum.photos/302/200"
+                    alt="Bild 4"
+                    class="w-full h-28 object-cover"
+                >
+
+                <!-- Bild 5 -->
+                <img
+                    src="https://picsum.photos/303/200"
+                    alt="Bild 5"
+                    class="w-full h-28 object-cover"
+                >
+
+            </div>
+
+        </section>
+
+
+        <!-- FOOTER -->
+        <footer class="px-8 py-8">
+
+            <div class="grid grid-cols-4 gap-5">
+
+                <!-- Logo och adress -->
+                <div>
+
+                    <h2 class="font-bold text-lg mb-5">
+                        Logo
+                    </h2>
+
+                    <p class="text-xs">
+                        <b>Address:</b><br>
+                        123 Main Street, City<br>
+                        State Province, Country
+                    </p>
+
+                    <p class="mt-5">
+                        ◎　●　♥
+                    </p>
+
+                </div>
+
+
+                <!-- Column 1 -->
+                <div>
+
+                    <h3 class="font-bold text-xs mb-4">
+                        Column one
+                    </h3>
+
+                    <a href="#" class="block text-xs mb-3">
+                        Link one
+                    </a>
+
+                    <a href="#" class="block text-xs mb-3">
+                        Link two
+                    </a>
+
+                    <a href="#" class="block text-xs mb-3">
+                        Link three
+                    </a>
+
+                    <a href="#" class="block text-xs">
+                        Link four
+                    </a>
+
+                </div>
+
+
+                <!-- Column 2 -->
+                <div>
+
+                    <h3 class="font-bold text-xs mb-4">
+                        Column two
+                    </h3>
+
+                    <a href="#" class="block text-xs mb-3">
+                        Link five
+                    </a>
+
+                    <a href="#" class="block text-xs mb-3">
+                        Link six
+                    </a>
+
+                    <a href="#" class="block text-xs mb-3">
+                        Link seven
+                    </a>
+
+                    <a href="#" class="block text-xs">
+                        Link eight
+                    </a>
+
+                </div>
+
+
+                <!-- Column 3 -->
+                <div>
+
+                    <h3 class="font-bold text-xs mb-4">
+                        Column three
+                    </h3>
+
+                    <a href="#" class="block text-xs mb-3">
+                        Link nine
+                    </a>
+
+                    <a href="#" class="block text-xs mb-3">
+                        Link ten
+                    </a>
+
+                    <a href="#" class="block text-xs mb-3">
+                        Link eleven
+                    </a>
+
+                    <a href="#" class="block text-xs">
+                        Link twelve
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Copyright -->
+            <div class="text-center text-gray-400 text-xs mt-8">
+
+                © 2024 Your Website. All rights reserved.
+                &nbsp;&nbsp;&nbsp;
+                Privacy Policy
+                &nbsp;&nbsp;&nbsp;
+                Terms of Service
+
+            </div>
+
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
+' '
